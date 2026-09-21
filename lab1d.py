@@ -2,8 +2,8 @@
 # Add comments before you do anything else.
 
 #!/usr/bin/env python3
-# Author:
-# Date:
+# Author: Zebang Yang
+# Date: 9/20/2026
 # Purpose: Use string methods and f-string formating.
 # Usage: python3 lab1d.py
 
@@ -24,3 +24,17 @@
 #TO-DO 4:
 # Use slicing to retun everything between index 2-15 to the user.
 # Print "uick brown foxs ju" from "words".
+
+name = 'Zebang Yang'
+age = 29
+
+txt = 'How are you {}? Happy {}th birthday!'.format(name.upper(), age)
+
+print(txt)
+
+words =  'The quick brown fox jumps over the lazy dog'
+
+print(words[:17])
+print(words[4:-34], words[-23:-17])
+print(words[2:15])
+print(words[5:-21])

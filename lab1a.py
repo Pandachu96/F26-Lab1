@@ -1,8 +1,8 @@
 # Add comments before you do anything else.
 
 #!/usr/bin/env python3
-# Author:
-# Date:
+# Author: Zebang Yang
+# Date: 9/20/2026
 # Purpose: Create a variable, check its type and print the variable.
 # Usage: python3 lab1a.py
 
@@ -20,3 +20,11 @@
 # TO DO 4: Dynamic Typing: 
 # Now reassign a new value to the variable `x`, this value should be a string, e.g "hello", check the type of the variable `x` again.
 # What did you observe?
+
+x = 10
+print(type(x))
+
+x = 'Hello'
+print(type(x))
+
+# The type of x is reassigned from int to string because the value was overridden in the memory.

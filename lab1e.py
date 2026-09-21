@@ -2,8 +2,8 @@
 # Add comments before you do anything else.
 
 #!/usr/bin/env python3
-# Author:
-# Date:
+# Author: Zebang Yang
+# Date: 9/20/2026
 # Purpose: Use string methods and f-string formating.
 # Usage: python3 lab1e.py
 
@@ -15,3 +15,9 @@
 # Print the product of `quantity` and `stock` with 4 spaces before the answer using the module % formatting.
 # Then print the product of `quantity` and `stock` with 7 spaces before the answer and make sure the answer only goes to hundreadths (-.--) using the module % formatting.
 
+quantity = 0.67
+stock = float(input())
+product = quantity * stock
+
+print('    %f' % product)
+print('       %.2f' % product)

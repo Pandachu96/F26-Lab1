@@ -1,8 +1,8 @@
 # Add comments before you do anything else.
 
 #!/usr/bin/env python3
-# Author:
-# Date:
+# Author: Zebang Yang
+# Date: 9/20/2026
 # Purpose: Use arithmetic in python.
 # Usage: python3 lab1b.py
 
@@ -13,3 +13,24 @@
 
 # TO-DO 2:
 # Perform all arithmetic oeprations as outlined in the description in README.md file, and print in the required format.
+
+'''
+num1 + num = ....
+num1 - num = ....
+num1 * num = ....
+num1 ** num = ....
+num1 / num = ....
+num1 // num = ....
+num1 % num = ....
+'''
+
+num1 = int(input('num1: '))
+num2 = int(input('num2: '))
+
+print('num1 + num =', num1 + num2)
+print('num1 - num =', num1 - num2)
+print('num1 * num =', num1 * num2)
+print('num1 ** num =', num1 ** num2)
+print('num1 / num =', num1 / num2)
+print('num1 // num =', num1 // num2)
+print('num1 % num =', num1 % num2)
